@@ -1,0 +1,77 @@
+@media (max-width: 1300px)  {
+    .navbar__collection{
+        display: none;
+        
+    }
+    .navbar__button{
+        display: none;
+    }
+    .navbar__menu{
+        display: block;
+    }
+ 
+}
+@media (max-width: 1300px) {
+   
+    .hero__text > h2{
+        font-size: 30px;
+    } 
+    .hero__text > h4{
+        width: 300px;
+        font-size: 10px;
+    } 
+    input{
+        width: 300px;
+    }
+    .heroo__image{
+        font-size: 200px;
+        width: 300px;
+        left: 100px;
+    }
+    .title__box{
+        margin-left: 150px;
+
+     }
+     
+     .box__text{
+         width: 600px;
+     }
+     .box__text > h2{
+       margin-top: 90px;
+     }
+     .box__image{
+        width: 150px;
+     }
+}
+@media (max-width: 1060px) {
+    .hero__text > h2{
+        font-size: 15px;
+    } 
+    .hero__text > h4{
+        width: 150px;
+        font-size: 10px;
+    } 
+    input{
+        width: 200px;
+    }
+    .heroo__image{
+        font-size: 150px;
+        width: 250px;
+    }
+  
+}
+@media (max-width:1360px){
+    .card__wrapper{
+        flex-wrap: wrap;
+    }
+    .box__wrapper{
+      width: 100%;
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px) {
+    .card__wrapper{
+        width: calc(100%);
+        
+    }
+}
